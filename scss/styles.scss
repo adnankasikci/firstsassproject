@@ -27,6 +27,14 @@ body {
   width: 100%;
 }
 
+h2{
+  font-family: $primary-font;
+  font-size: 5rem;
+  color: $light-color;
+  letter-spacing: .5rem;
+  font-weight: 300;
+}
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -158,5 +166,79 @@ img {
       }
     }
 
+  }
+}
+
+
+/** MAİN SLİDER */
+
+.main-slider{
+  .single-slide{
+    position: relative;
+
+    .slide-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;  
+      background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .9));
+      
+      .slide-content{
+        position:absolute;
+        top: 25%;
+        width: 80%;
+        border-top: 2px solid $primary-color;
+        border-bottom: 2px solid $primary-color;
+        padding: 10rem 7rem;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1));
+
+        p{
+          font-size: 1.4rem;
+        }
+
+      }
+    }
+  }
+}
+
+/** OWL CAROUSEL CUSTOM */
+
+.owl-theme{
+  position: relative;
+
+  .owl-dots{
+    position: absolute;
+    top: 6rem;
+    right: 10%;
+    z-index: 5;
+    display: flex;
+
+    .owl-dot{
+      display: inline-block;
+      margin-right: 1.3rem;
+      width: 3.3rem;
+      height: 3.3rem;
+      text-align: center;
+      border-radius: 4rem;
+      background-color: transparent;
+      transition: all .5s;
+
+      &.active, &:hover{
+        color: $primary-color;
+
+        span{
+          background-color: transparent;
+        }
+      }
+
+      span{
+        font-size: 2.5rem;
+        font-family: $primary-font;
+        background:transparent;
+      }
+
+    }
+    
   }
 }

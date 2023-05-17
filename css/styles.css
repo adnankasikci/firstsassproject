@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** FONTS **/
 @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
 /** VARIABLES **/
@@ -61,6 +62,14 @@ body {
   max-width: 114rem;
   margin: 0 auto;
   width: 100%;
+}
+
+h2 {
+  font-family: "Changa", sans-serif;
+  font-size: 5rem;
+  color: #FEFEFE;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
 }
 
 a {
@@ -165,4 +174,62 @@ img {
 }
 .nav-header .navbar .search-area button[type=submit] {
   margin-left: -5rem;
+}
+
+/** MAİN SLİDER */
+.main-slider .single-slide {
+  position: relative;
+}
+.main-slider .single-slide .slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+}
+.main-slider .single-slide .slide-overlay .slide-content {
+  position: absolute;
+  top: 25%;
+  width: 80%;
+  border-top: 2px solid #E51515;
+  border-bottom: 2px solid #E51515;
+  padding: 10rem 7rem;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgb(0, 0, 0));
+}
+.main-slider .single-slide .slide-overlay .slide-content p {
+  font-size: 1.4rem;
+}
+
+/** OWL CAROUSEL CUSTOM */
+.owl-theme {
+  position: relative;
+}
+.owl-theme .owl-dots {
+  position: absolute;
+  top: 6rem;
+  right: 10%;
+  z-index: 5;
+  display: flex;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  margin-right: 1.3rem;
+  width: 3.3rem;
+  height: 3.3rem;
+  text-align: center;
+  border-radius: 4rem;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.owl-theme .owl-dots .owl-dot.active, .owl-theme .owl-dots .owl-dot:hover {
+  color: #E51515;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot span {
+  font-size: 2.5rem;
+  font-family: "Changa", sans-serif;
+  background: transparent;
 }/*# sourceMappingURL=styles.css.map */
