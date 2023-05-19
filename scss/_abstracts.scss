@@ -33,6 +33,19 @@ $general-transition: all .5s;
     }
 }
 
+.m{
+    &-1{
+        margin: 1rem;
+    }
+}
+
+.text-primary{
+    color: $primary-color;
+}
+
+.text-center{
+    text-align: center;
+}
 
 /** MIXINS **/
 
@@ -40,4 +53,18 @@ $general-transition: all .5s;
     display: $display;
     align-items: $align-items;
     justify-content: $justify-content;
+}
+
+@mixin media ($screensize){
+
+    @if ($screensize == large){
+        @media(max-width: 992px){@content};
+    }
+    @if ($screensize == medium){
+        @media(max-width: 768px){@content};
+    }
+    @if ($screensize == small){
+        @media(max-width: 567px){@content};
+    }
+
 }
