@@ -3,7 +3,6 @@
 Sass yaklaşımlarına aşinalık ve sass teknolojisini anlama.
 
 #### Proje Amacı
----
 
 Bu projede sass konularına daha iyi hakim olabilmek için farklı örnekleri de görebilme adına hazırlanmış bir web sitedir.
 
@@ -14,7 +13,6 @@ Bu projede sass konularına daha iyi hakim olabilmek için farklı örnekleri de
 - Componentlerle çalışma
 
 #### Kullanılanlar
----
 
 - Hover visited active focus hareketleri ile çalışma
 - Değişkenlerle çalışma ve utilites class yapıları ile çalışma
@@ -24,7 +22,6 @@ Bu projede sass konularına daha iyi hakim olabilmek için farklı örnekleri de
 - Responsive uyumlu tasarım
 
 ## Kurulum
----
 
 Projenin kurulumu için aşağıdaki adımları izleyin:
 
@@ -35,7 +32,6 @@ Projenin kurulumu için aşağıdaki adımları izleyin:
 5. Tarayıcınızda `http://localhost:3000` adresine gidin ve projeyi görüntüleyin.
 
 ## Kullanım
----
 
 Proje kullanımıyla ilgili aşağıdaki detayları göz önünde bulundurun:
 
@@ -60,7 +56,6 @@ Proje kullanımıyla ilgili aşağıdaki detayları göz önünde bulundurun:
 ```
 
 ## Katkıda Bulunma
----
 
 Eğer projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
 
@@ -71,7 +66,7 @@ Eğer projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları taki
 5. Pull Request göndermek için GitHub üzerinden talep oluşturun.
 
 ## İletişim
----
+
 Herhangi bir sorunuz, öneriniz veya geri bildiriminiz varsa, lütfen göndermekten çekinmeyin.:relieved:
 
 Daha fazla bilgi için [proje dokümantasyonunu](https://github.com/ad0pa/firstsassproject) ziyaret edin.
