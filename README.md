@@ -9,7 +9,7 @@ Bu projede sass konularına daha iyi hakim olabilmek için farklı örnekleri de
 - Teknoloji yapısını iyi anlamak
 - Kullanılan yapılara aşina olmak
 - Sass folder structure ile çalışma mantığını anlamak
-- @import, @extend, @include #mixin ile çalışmak
+- @import, @extend, @include @mixin ile çalışmak
 - Componentlerle çalışma
 
 #### Kullanılanlar
