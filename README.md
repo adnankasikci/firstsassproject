@@ -1,6 +1,6 @@
 ## D-503 Game Web Site with Sass
 
-Sass yaklaşımlarına aşinalık ve sass teknolojisini anlama.
+Sass yaklaşımlarına aşinalık ve sass teknolojisini anlama. https://tailwind-batman.netlify.app/ 
 
 #### Proje Amacı
 
